@@ -1,0 +1,39 @@
+id,section,2023 (n=15),2024 (n=97),2025 (n=65),years asked,answer format,notes
+P1,Respondent,,1.1 Did you have Sirens 2024 membership? (97/97),1.1 Did you have Sirens 2025 membership? (65/65),"2024,2025",Yes/No,"96/97 and 65/65 said yes, so only members are responding."
+P2,Respondent,,1.2 How many Wave FC home games did you go to in 2024? (97/97),How many Wave home games did you go to in 2025? (65/65),"2024,2025",Single choice,Buckets changed: 2024 '0 - 5 / 5 - 10 / More than 10' overlap; 2025 '1 - 5 / 6 - 10 / More than 10' don't.
+P3,Respondent,,1.3 Were you a 2024 season ticket holder? (97/97),Were you a 2025 season ticket holder? (65/65),"2024,2025",Yes/No,Gates the ticketing section.
+P4,Respondent,,,Where do you typically sit during Wave FC home games? (64/65),2025,Free text,36 different spellings of sections; works better as a multiple choice.
+M1,Membership,,,How likely are you to renew your Sirens membership? (63/65),2025,Likelihood scale,58/63 very likely.
+M2,Membership,,,What factors go into your decision whether to renew? (30/65),2025,Free text,
+M3,Membership,,6.3 What else would you like us to know about Sirens membership? (26/97),,2024,Free text,
+T1,Ticketing (ISC),01 Do you think your season tickets are fairly priced for the section you are in? (15/15),2.1 Did you think your season tickets were fairly priced for the section you were in? (80/97),,"2023,2024",Yes/No/Other,ISC core. Field exists in 2025 Airtable with no answers.
+T2,Ticketing (ISC),02 Do you think you get good benefits being a season ticket holder? (15/15),2.2 Do you think you got good benefits being a season ticket holder? (80/97),,"2023,2024",Yes/No/Other,ISC core. Field exists in 2025 Airtable with no answers.
+T3,Ticketing (ISC),03 Does your ticket rep provide good service? (15/15),2.3 Did your ticket rep provide good service? (80/97),Did your ticket rep(s) provide good service in 2025? (60/65),"2023,2024,2025",Yes/No/Other; 2025 satisfaction scale,Only ticketing question asked all three years. 2025 option 'Somewhat satified' is misspelled.
+T4,Ticketing (ISC),04 Does your front office provide fair and flexible ticketing policies? (14/15),3.1 Does your front office provide fair and flexible ticketing policies? (97/97),,"2023,2024",Yes/No/Other,ISC core. Field exists in 2025 Airtable with no answers.
+T5,Ticketing (ISC),05 Would you recommend someone to become a season ticket holder on value alone? (15/15),2.4 Would you recommend someone to become a season ticket holder on value alone? (80/97),,"2023,2024",Yes/No/Other,ISC core. Field exists in 2025 Airtable with no answers.
+T6,Ticketing (ISC),06 Share anything else you have to say about home game tickets and ticketing policies. (6/15),3.2 What else would you like us to know about home game tickets and ticketing policies? (31/97),What else would you like to share about your experience with the Wave Front Office this year? (21/65),"2023,2024,2025",Free text,2025 widened this to the whole front office.
+S1,Stadium (ISC),07 Do you feel safe when attending games in your own stadium? Does security keep away supporters out of the home supporters end? (15/15),4.1 Do you feel safe when attending games in your home stadium? (97/97),,"2023,2024",Yes/No/Other,ISC core. Field exists in 2025 Airtable with no answers.
+S2,Stadium (ISC),08 Is the supporters section properly set up with standing in mind? Is the stadium and supporters section well maintained? (15/15),,,2023,Yes/No/Other,Columns exist in the 2024 sheet but the form never collected answers.
+S3,Stadium (ISC),09 Are food and drinks affordable? Are there options for people with dietary needs? Is water widely available at a low cost or for free? (15/15),4.2 Are food and drinks affordable? (97/97),,"2023,2024",Yes/No/Other,"2023 bundled price, dietary options and water into one question."
+S4,Stadium (ISC),,4.3 Does the stadium have options for people with dietary needs? (97/97),,2024,Yes/No/Other,Split out of 2023 Q09.
+S5,Stadium (ISC),10 How quickly does security respond to reported incidents? Does security handle these incidents in an appropriate manner? (14/15),4.4 Does stadium security respond to incidents in an appropriate manner? (97/97),,"2023,2024",Yes/No/Other,"9/14 answered 'Other' in 2023, which suggests most people hadn't seen an incident."
+S6,Stadium (ISC),11 Is there an area where people can learn more about the supporter groups in your stadium? (15/15),,,2023,Yes/No/Other,Column exists in the 2024 sheet but the form never collected answers.
+S7,Stadium (ISC),12 Is there proper accommodations for people with physical disabilities? Does the team take into account the needs of people with sensory needs? (15/15),5.1 Which stadium accessibility feature(s) have you or someone you know used at a Wave FC home game? (97/97),Which stadium accessibility feature(s) have you or someone you know used at a Wave home game? (37/65),"2023,2024,2025",2023 Yes/No/Other; 2024-25 multi-select,Changed from a rating to features used; years aren't directly comparable.
+S8,Stadium (ISC),,5.2 Please share any accessibility accommodations that would improve the home game day experience. (16/97),,2024,Free text,Field exists in 2025 Airtable with no answers.
+S9,Stadium (ISC),13 Share anything else you have to say about the experience in the stadium. (7/15),4.5 What else would you like us to know about the experience in the stadium? (39/97),What else would you like to share about your experience in the stadium this year? (28/65),"2023,2024,2025",Free text,Asked all three years.
+A1,Sirens activities,,6.1 How do you feel about the following: [Watch parties] (97/97),,2024,Satisfaction scale,"2024 grid. 2025 has watch-party venue rating fields (Kairoa, Brejeria, FairPlay) with no answers."
+A2,Sirens activities,,6.1 How do you feel about the following: [Tailgates] (97/97),,2024,Satisfaction scale,2025 'Tailgates' field exists with no answers.
+A3,Sirens activities,,6.1 How do you feel about the following: [Drums and chants] (97/97),,2024,Satisfaction scale,2025 'Drums and chants' field exists with no answers.
+A4,Sirens activities,,6.1 How do you feel about the following: [Discord] (97/97),,2024,Satisfaction scale,2025 asked how people hear about news instead (C1).
+A5,Sirens activities,,6.1 How do you feel about the following: [Newsletter] (97/97),,2024,Satisfaction scale,Most-liked item in 2024 (86/97 satisfied).
+A6,Sirens activities,,6.1 How do you feel about the following: [Sirens discounts] (97/97),,2024,Satisfaction scale,41/97 neutral.
+A7,Sirens activities,,6.2 What types of Sirens events would you like to see more of in 2025? (85/97),,2024,Free text,2025 field '6.2 ... in 2026? [XX]' has no answers.
+A8,Sirens activities,,,Where did you attend watch parties in 2025? (51/65),2025,Multi-select,
+A9,Sirens activities,,,"When there are multiple watch parties at the same time, how do decide which to attend? (34/65)",2025,Free text,Marked 'Needs work' in the 2025 Questions table.
+C1,Communication,,,How do you find about about Sirens news and events? (63/65),2025,Multi-select,Typo in wording ('find about about').
+G1,Community giving,,,Which of the following organizations would you like Sirens to continue supporting? (57/65),2025,Multi-select,
+G2,Community giving,,,Please list any other organizations you feel like the Sirens should support. (5/65),2025,Free text,
+X1,Merchandise,,7.1 What kind of Sirens merchandise would you like to see? (57/97),,2024,Free text,
+X2,Merchandise,,7.2 What would make you buy more Sirens merchandise? (46/97),,2024,Free text,
+X3,Merchandise,,7.3 What design elements would you like to see in next year's merchandise? (35/97),,2024,Free text,
+O1,Open comments,,,What else would you like to share about your experience with the Sirens or the Wave this year? (21/65),2025,Free text,
