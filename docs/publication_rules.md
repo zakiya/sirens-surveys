@@ -22,7 +22,8 @@ public files (`data/public/`). Decided 2026-10-31.
 - Drop "Watch party summary" (2025). It's an officer-made field, not a question.
 - Drop timestamps, Airtable record IDs and created times. Each file is already
   labeled by year.
-- Give every response a fresh ID in the form `2024-001`.
+- Give every response a fresh ID in the form `2024-001`, assigned after a fixed
+  shuffle so row order doesn't reveal when people responded.
 - Keep seat sections (2025) as answered. No rows or seat numbers were given.
 
 ## Free text
