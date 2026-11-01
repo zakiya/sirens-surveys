@@ -91,7 +91,7 @@ def clean(value):
 
 
 def load_2023():
-    d = json.loads((RAW / "coda" / "2023_isc_raw_answers.json").read_text())
+    d = json.loads((RAW / "2023" / "coda_2023_isc_raw_answers.json").read_text())
     cols = d["columns"]
     header = [COLUMNS_2023[c] for c in cols[1:]]
     rows = [(str(r[0]), {COLUMNS_2023[c]: clean(v) for c, v in zip(cols[1:], r[1:])}) for r in d["rows"]]
@@ -106,7 +106,7 @@ def question_number(header):
 
 def load_2024():
     ws = openpyxl.load_workbook(
-        RAW / "drive" / "2024_sirens_end_of_year_survey_responses.xlsx"
+        RAW / "2024" / "google_sheet_2024_responses.xlsx"
     )["Form Responses 1"]
     data = [r for r in ws.iter_rows(values_only=True) if any(v not in (None, "") for v in r)]
     sheet_header = [clean(h) for h in data[0]]
@@ -120,7 +120,7 @@ def load_2024():
 
 
 def load_2025():
-    with open(RAW / "airtable" / "2025_results.csv", newline="") as fh:
+    with open(RAW / "2025" / "airtable_2025_results.csv", newline="") as fh:
         records = list(csv.DictReader(fh))
     header = [f"{section}: {question}" for section, _, question in COLUMNS_2025]
     rename = {field: f"{section}: {question}" for section, field, question in COLUMNS_2025}

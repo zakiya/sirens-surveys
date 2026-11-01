@@ -20,7 +20,7 @@ SKIP_COLUMNS = {"Timestamp", "Watch party summary"}
 
 
 def year_2023():
-    d = json.loads((RAW / "coda" / "2023_isc_raw_answers.json").read_text())
+    d = json.loads((RAW / "2023" / "coda_2023_isc_raw_answers.json").read_text())
     cols = d["columns"]
     for row in d["rows"]:
         for i, col in enumerate(cols):
@@ -30,7 +30,7 @@ def year_2023():
 
 def year_2024():
     ws = openpyxl.load_workbook(
-        RAW / "drive" / "2024_sirens_end_of_year_survey_responses.xlsx"
+        RAW / "2024" / "google_sheet_2024_responses.xlsx"
     )["Form Responses 1"]
     rows = [r for r in ws.iter_rows(values_only=True) if any(v not in (None, "") for v in r)]
     header, body = rows[0], rows[1:]
@@ -42,7 +42,7 @@ def year_2024():
 
 
 def year_2025():
-    with open(RAW / "airtable" / "2025_results.csv", newline="") as fh:
+    with open(RAW / "2025" / "airtable_2025_results.csv", newline="") as fh:
         reader = csv.DictReader(fh)
         records = [
             (r["Number"], {k: v for k, v in r.items() if k not in ("airtable_id", "created_time", "Number")})

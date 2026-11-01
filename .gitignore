@@ -3,8 +3,8 @@
 .env.*
 !.env.example
 
-# Raw survey exports: unreviewed free text may identify people.
-# Only reviewed, anonymized files under data/public/ get committed.
+# Raw survey exports, including their READMEs: unreviewed free text may
+# identify people. Only reviewed, anonymized files under data/public/ get committed.
 data/raw/
 
 __pycache__/

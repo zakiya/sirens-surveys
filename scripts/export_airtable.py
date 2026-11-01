@@ -1,9 +1,11 @@
-"""Export every table in the Sirens surveys Airtable base to data/raw/airtable/.
+"""Export every table in the Sirens surveys Airtable base to data/raw/<year>/.
 
-For each table this writes:
-  <table>.records.json  - records exactly as the API returns them
-  <table>.csv           - one row per record, columns in the base's field order
-  schema.json           - table and field metadata for the whole base
+Each table goes in the folder for the year at the start of its name
+("2025 Results" -> data/raw/2025/). For each table this writes:
+  airtable_<table>.records.json  - records exactly as the API returns them
+  airtable_<table>.csv           - one row per record, columns in the base's field order
+and data/raw/2025/airtable_schema.json has the table and field metadata for the
+whole base (the base was built for the 2025 survey).
 """
 import csv
 import json
@@ -14,7 +16,8 @@ from pathlib import Path
 
 BASE_ID = "appPpqIZUPQDyBYeZ"
 ROOT = Path(__file__).resolve().parent.parent
-OUT = ROOT / "data" / "raw" / "airtable"
+RAW = ROOT / "data" / "raw"
+BASE_YEAR = "2025"
 
 
 def load_token():
@@ -58,26 +61,35 @@ def slug(name):
     return re.sub(r"[^a-z0-9]+", "_", name.lower()).strip("_")
 
 
+def year_folder(table_name):
+    m = re.match(r"(20\d\d)\b", table_name)
+    if not m:
+        raise ValueError(f"Table {table_name!r} doesn't start with a year; add it to a folder by hand")
+    folder = RAW / m.group(1)
+    folder.mkdir(parents=True, exist_ok=True)
+    return folder
+
+
 def main():
     token = load_token()
-    OUT.mkdir(parents=True, exist_ok=True)
     tables = get(f"https://api.airtable.com/v0/meta/bases/{BASE_ID}/tables", token)["tables"]
-    (OUT / "schema.json").write_text(json.dumps(tables, indent=2))
+    (year_folder(BASE_YEAR) / "airtable_schema.json").write_text(json.dumps(tables, indent=2))
 
     for table in tables:
         records = fetch_records(table["id"], token)
-        name = slug(table["name"])
-        (OUT / f"{name}.records.json").write_text(json.dumps(records, indent=2))
+        out = year_folder(table["name"])
+        name = f"airtable_{slug(table['name'])}"
+        (out / f"{name}.records.json").write_text(json.dumps(records, indent=2))
 
         fields = [f["name"] for f in table["fields"]]
-        with open(OUT / f"{name}.csv", "w", newline="") as fh:
+        with open(out / f"{name}.csv", "w", newline="") as fh:
             writer = csv.writer(fh)
             writer.writerow(["airtable_id", "created_time"] + fields)
             for r in records:
                 writer.writerow(
                     [r["id"], r["createdTime"]] + [cell(r["fields"].get(f)) for f in fields]
                 )
-        print(f"{table['name']}: {len(records)} records -> {name}.csv")
+        print(f"{table['name']}: {len(records)} records -> {(out / name).relative_to(ROOT)}.csv")
 
 
 if __name__ == "__main__":
