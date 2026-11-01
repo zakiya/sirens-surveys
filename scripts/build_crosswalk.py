@@ -69,7 +69,7 @@ ROWS = [
      None, "Yes/No/Other", "ISC core. Not on the 2025 form; the empty Airtable field is a leftover."),
     ("S2", "Stadium (ISC)",
      ("08 Is the supporters section properly set up with standing in mind? Is the stadium and supporters section well maintained?", 15),
-     None, None, "Yes/No/Other", "Columns exist in the 2024 sheet but the form never collected answers."),
+     None, None, "Yes/No/Other", "Not asked in 2024; the empty sheet columns are leftovers."),
     ("S3", "Stadium (ISC)",
      ("09 Are food and drinks affordable? Are there options for people with dietary needs? Is water widely available at a low cost or for free?", 15),
      ("4.2 Are food and drinks affordable?", 97),
@@ -83,7 +83,7 @@ ROWS = [
      None, "Yes/No/Other", "9/14 answered 'Other' in 2023, which suggests most people hadn't seen an incident."),
     ("S6", "Stadium (ISC)",
      ("11 Is there an area where people can learn more about the supporter groups in your stadium?", 15),
-     None, None, "Yes/No/Other", "Column exists in the 2024 sheet but the form never collected answers."),
+     None, None, "Yes/No/Other", "Not asked in 2024; the empty sheet column is a leftover."),
     ("S7", "Stadium (ISC)",
      ("12 Is there proper accommodations for people with physical disabilities? Does the team take into account the needs of people with sensory needs?", 15),
      ("5.1 Which stadium accessibility feature(s) have you or someone you know used at a Wave FC home game?", 97),
@@ -147,8 +147,8 @@ ROWS = [
      "Free text", ""),
 ]
 
-# Checked against the 2025 form on 2026-10-31: none of the 2025 fields below
-# were on the form. All are leftovers from a copied template.
+# None of these fields were ever on the form: the user confirmed the 2024 ones,
+# and the 2025 ones were checked against the form on 2026-10-31.
 UNANSWERED_FIELDS = {
     "2024 Google Sheet": [
         "Is the supporters section properly set up with standing in mind?",
