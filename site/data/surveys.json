@@ -31,7 +31,7 @@
       {
        "type": "diverging",
        "title": "How the Wave did on ticketing",
-       "subtitle": "Share of 15 respondents. \"Other\" was a single choice, with no write-in box.",
+       "subtitle": "Share of people who answered each question (15 responded; one skipped fair, flexible policies). \"Other\" was a single choice, with no write-in box.",
        "categories": [
         {
          "key": "No",
@@ -129,7 +129,7 @@
       {
        "type": "diverging",
        "title": "How the stadium did",
-       "subtitle": "Share of 15 respondents.",
+       "subtitle": "Share of people who answered each question (15 responded; one skipped the security question).",
        "categories": [
         {
          "key": "No",
@@ -593,7 +593,7 @@
          ]
         }
        ],
-       "note": "\"Unsure\" was an answer choice for dietary options and security, and most people picked it."
+       "note": "\"Unsure\" was an answer choice for dietary options and security. 45 of 97 picked it for dietary options and 65 for security; the rest of \"Not sure or other\" is write-ins."
       },
       {
        "type": "bars",
@@ -1098,7 +1098,7 @@
     "89 of 97 people feel safe at home games.",
     "Season ticket holders were mostly happy with prices (70 of 80) and their reps (58 of 80), but less sure about benefits: 45 said yes and 27 said no.",
     "52 of 97 said stadium food and drink aren't affordable.",
-    "Most people couldn't rate security (71 of 97 weren't sure or wrote something else) or dietary options (60 of 97).",
+    "Many people weren't sure how to rate security (65 of 97 picked \"Unsure\") or dietary options (45 of 97).",
     "The newsletter was the best-liked Sirens activity: 86 of the 96 people it applies to were satisfied. Discounts drew the most shrugs, with 41 of 83 neutral.",
     "Volunteer events (46), social events (44) and social justice and activism (43) topped the list of events people want more of."
    ]
@@ -1108,7 +1108,7 @@
    "title": "2025 Sirens survey",
    "responses": 65,
    "platform": "Airtable form",
-   "when": "November 5 – December 8, 2025",
+   "when": "November 4 – December 7, 2025",
    "who": "2025 Sirens members",
    "stats": [
     {
@@ -1169,23 +1169,23 @@
         },
         {
          "label": "The Cove (section 138)",
-         "count": 25
+         "count": 24
         },
         {
          "label": "200 level",
-         "count": 6
+         "count": 5
         },
         {
          "label": "Varies or doesn't sit",
-         "count": 2
+         "count": 5
         },
         {
          "label": "General admission",
-         "count": 2
+         "count": 1
         }
        ],
        "denominator": 64,
-       "note": "Answers were typed in, so they're grouped here. Club sections (C107, C229 and so on) are counted by level.",
+       "note": "Answers were typed in, so they're grouped here. Club sections (C107, C229 and so on) are counted by level, and answers naming more than one place count as \"Varies\".",
        "writeIns": []
       },
       {
@@ -1651,14 +1651,14 @@
     "The newsletter (42 of 63) and Discord (41) are how most people hear Sirens news.",
     "FairPlay in North Park (24 of 51) and Novo Brewing in Mission Valley (21) drew the most people to away-game watch parties.",
     "The NWSL Players Association was the most-chosen organization to keep supporting, picked by 49 of 57.",
-    "25 of 64 people sit in the Cove (section 138); the rest are spread across the stadium."
+    "24 of 64 people sit in the Cove (section 138); the rest are spread across the stadium."
    ]
   }
  ],
  "across": {
   "rep": {
    "title": "Ticket rep service, all three years",
-   "subtitle": "Share of people who rated their rep positively, leaving out \"not sure\" answers. 2023 and 2024 asked yes or no; 2025 used a satisfaction scale, so \"very\" and \"somewhat satisfied\" both count here.",
+   "subtitle": "Share of people who rated their rep positively, leaving out \"not sure\" answers. 2023 and 2024 asked yes or no; 2025 used a satisfaction scale, so \"very\" and \"somewhat satisfied\" both count here. The 2025 scale had two satisfied options, one unsatisfied option and no neutral, which makes a high score more likely.",
    "items": [
     {
      "label": "2023",
@@ -1771,7 +1771,7 @@
      ]
     }
    ],
-   "note": "2023 asked about accessibility as a yes-or-no rating, so it isn't comparable. 2025 didn't ask the ticketing, safety, food or security questions."
+   "note": "2023 asked about accessibility as a yes-or-no rating, so it isn't comparable. In 2025, 28 people skipped the accessibility question, while nobody skipped it in 2024; if they used none, the 2025 share would be 80% (52 of 65), so the two years aren't directly comparable. 2025 didn't ask the ticketing, safety, food or security questions."
   }
  }
 }

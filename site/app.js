@@ -249,7 +249,7 @@ function overviewPage() {
   const a = DATA.across;
   const intro = el("section", { class: "intro" }, el("div", { class: "wrap" },
     el("h1", { text: "What Sirens told us, 2023–2025" }),
-    el("p", { class: "lede", text: "Every year the Sirens ask members about game day, the Wave front office and the Sirens themselves. Here's what they said, with charts, summaries and the full anonymized responses." }),
+    el("p", { class: "lede", text: "Every year the Sirens survey supporters, mostly members, about game day, the Wave front office and the Sirens themselves. Here's what they said, with charts, summaries and the full anonymized responses." }),
     statTiles([
       { label: "Responses", value: String(total), detail: "Across three surveys" },
       ...years.slice().reverse().map((y) => ({ label: `${y.year} survey`, value: String(y.responses), detail: `${y.platform}, ${y.when}` })),

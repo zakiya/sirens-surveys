@@ -157,12 +157,14 @@ def year_2023():
         "sections": [
             {"title": "Tickets and the front office", "blocks": [
                 diverging("How the Wave did on ticketing",
-                          f"Share of {n} respondents. \"Other\" was a single choice, with no write-in box.",
+                          f"Share of people who answered each question ({n} responded; one skipped fair, flexible policies). \"Other\" was a single choice, with no write-in box.",
                           YES_NO, ticketing),
                 comments("Comments on tickets", rows, "06"),
             ]},
             {"title": "Stadium experience", "blocks": [
-                diverging("How the stadium did", f"Share of {n} respondents.", YES_NO, stadium),
+                diverging("How the stadium did",
+                          f"Share of people who answered each question ({n} responded; one skipped the security question).",
+                          YES_NO, stadium),
                 comments("Comments on the stadium", rows, "13"),
             ]},
         ],
@@ -176,7 +178,8 @@ def year_2024():
     members = sum(1 for v in answered(rows, col(rows, "1.1")) if v == "Yes")
     games = Counter(answered(rows, col(rows, "1.2")))
     t = lambda p, label, **kw: yes_no_row(rows, p, label, **kw)
-    unsure = ("Unsure",)
+    unsure_diet = answered(rows, col(rows, "4.3")).count("Unsure")
+    unsure_sec = answered(rows, col(rows, "4.4")).count("Unsure")
     ticketing = [t("2.1", "Fairly priced"), t("2.2", "Good benefits"), t("2.3", "Ticket rep service"),
                  t("2.4", "Would recommend on value"), t("3.1", "Fair, flexible policies")]
     stadium = [t("4.1", "Feel safe"), t("4.2", "Food and drink affordable"),
@@ -218,7 +221,7 @@ def year_2024():
             {"title": "Stadium experience", "blocks": [
                 diverging("How the stadium did", f"Share of {n} respondents.",
                           YES_NO, stadium,
-                          note="\"Unsure\" was an answer choice for dietary options and security, and most people picked it."),
+                          note=f"\"Unsure\" was an answer choice for dietary options and security. {unsure_diet} of {n} picked it for dietary options and {unsure_sec} for security; the rest of \"Not sure or other\" is write-ins."),
                 bars("Accessibility features used",
                      f"Share of {n} respondents. People could pick more than one.",
                      list(access.items()), n, write_ins=access_wi),
@@ -246,6 +249,8 @@ def year_2024():
 
 def seat_bucket(v):
     s = v.lower()
+    if re.search(r"\bor\b", s):  # names more than one place, e.g. "Cove or 300's"
+        return "Varies or doesn't sit"
     if re.search(r"\b138\b|cove|supporter", s):
         return "The Cove (section 138)"
     m = re.search(r"c?\s*([123])\d\d", s)
@@ -288,7 +293,7 @@ def year_2025():
     rep_cats = [c for c in SATISFACTION if c["key"] in ("Very unsatisfied", "Somewhat satisfied", "Very satisfied")]
     return {
         "year": "2025", "title": "2025 Sirens survey", "responses": n,
-        "platform": "Airtable form", "when": "November 5 – December 8, 2025",
+        "platform": "Airtable form", "when": "November 4 – December 7, 2025",
         "who": "2025 Sirens members",
         "stats": [
             stat("Responses", str(n), "Everyone who submitted the form"),
@@ -304,7 +309,7 @@ def year_2025():
                      note="Nobody picked \"None\" or \"Other / Not sure\"."),
                 bars("Where people usually sit", f"Share of {seat_n} people who answered, grouped by section.",
                      list(seats.items()), seat_n,
-                     note="Answers were typed in, so they're grouped here. Club sections (C107, C229 and so on) are counted by level."),
+                     note="Answers were typed in, so they're grouped here. Club sections (C107, C229 and so on) are counted by level, and answers naming more than one place count as \"Varies\"."),
                 bars("Accessibility features used",
                      f"Share of {len(access_vals)} people who answered. People could pick more than one.",
                      list(access.items()), len(access_vals)),
@@ -354,7 +359,7 @@ TAKEAWAYS = {
         "89 of 97 people feel safe at home games.",
         "Season ticket holders were mostly happy with prices (70 of 80) and their reps (58 of 80), but less sure about benefits: 45 said yes and 27 said no.",
         "52 of 97 said stadium food and drink aren't affordable.",
-        "Most people couldn't rate security (71 of 97 weren't sure or wrote something else) or dietary options (60 of 97).",
+        "Many people weren't sure how to rate security (65 of 97 picked \"Unsure\") or dietary options (45 of 97).",
         "The newsletter was the best-liked Sirens activity: 86 of the 96 people it applies to were satisfied. Discounts drew the most shrugs, with 41 of 83 neutral.",
         "Volunteer events (46), social events (44) and social justice and activism (43) topped the list of events people want more of.",
     ],
@@ -364,7 +369,7 @@ TAKEAWAYS = {
         "The newsletter (42 of 63) and Discord (41) are how most people hear Sirens news.",
         "FairPlay in North Park (24 of 51) and Novo Brewing in Mission Valley (21) drew the most people to away-game watch parties.",
         "The NWSL Players Association was the most-chosen organization to keep supporting, picked by 49 of 57.",
-        "25 of 64 people sit in the Cove (section 138); the rest are spread across the stadium.",
+        "24 of 64 people sit in the Cove (section 138); the rest are spread across the stadium.",
     ],
 }
 
@@ -402,11 +407,12 @@ def across(y23, y24, y25):
     g25 = next(s for s in y25["stats"] if s["label"] == "At more than 10 home games")
     a24, a25 = find(y24, "Accessibility features used"), find(y25, "Accessibility features used")
     none24, none25 = bar_count(a24, "None"), bar_count(a25, "None")
+    skipped25 = y25["responses"] - a25["denominator"]
     na = cell("", "Not asked")
     return {
         "rep": {
             "title": "Ticket rep service, all three years",
-            "subtitle": "Share of people who rated their rep positively, leaving out \"not sure\" answers. 2023 and 2024 asked yes or no; 2025 used a satisfaction scale, so \"very\" and \"somewhat satisfied\" both count here.",
+            "subtitle": "Share of people who rated their rep positively, leaving out \"not sure\" answers. 2023 and 2024 asked yes or no; 2025 used a satisfaction scale, so \"very\" and \"somewhat satisfied\" both count here. The 2025 scale had two satisfied options, one unsatisfied option and no neutral, which makes a high score more likely.",
             "items": [{"label": "2023", **rep23}, {"label": "2024", **rep24}, {"label": "2025", **rep25}],
         },
         "table": {
@@ -422,7 +428,7 @@ def across(y23, y24, y25):
                     na, cell(f"{pct(none24, a24['denominator'])}%", f"{none24} of {a24['denominator']}"),
                     cell(f"{pct(none25, a25['denominator'])}%", f"{none25} of {a25['denominator']}")]},
             ],
-            "note": "2023 asked about accessibility as a yes-or-no rating, so it isn't comparable. 2025 didn't ask the ticketing, safety, food or security questions.",
+            "note": f"2023 asked about accessibility as a yes-or-no rating, so it isn't comparable. In 2025, {skipped25} people skipped the accessibility question, while nobody skipped it in 2024; if they used none, the 2025 share would be {pct(none25 + skipped25, y25['responses'])}% ({none25 + skipped25} of {y25['responses']}), so the two years aren't directly comparable. 2025 didn't ask the ticketing, safety, food or security questions.",
         },
     }
 
