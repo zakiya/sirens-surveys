@@ -1,0 +1,1777 @@
+{
+ "years": [
+  {
+   "year": "2023",
+   "title": "2023 front office ratings",
+   "responses": 15,
+   "platform": "Coda form",
+   "when": "October 2023",
+   "who": "Anyone in the Sirens Discord, invited in the announcements channel",
+   "stats": [
+    {
+     "label": "Responses",
+     "value": "15",
+     "detail": "All answers collected by the form"
+    },
+    {
+     "label": "Questions",
+     "value": "13",
+     "detail": "11 rating questions and 2 comment boxes"
+    },
+    {
+     "label": "Comments",
+     "value": "13",
+     "detail": "Written answers across both comment boxes"
+    }
+   ],
+   "sections": [
+    {
+     "title": "Tickets and the front office",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "How the Wave did on ticketing",
+       "subtitle": "Share of 15 respondents. \"Other\" was a single choice, with no write-in box.",
+       "categories": [
+        {
+         "key": "No",
+         "label": "No",
+         "role": "neg2"
+        },
+        {
+         "key": "Other",
+         "label": "Not sure or other",
+         "role": "neutral"
+        },
+        {
+         "key": "Yes",
+         "label": "Yes",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Fairly priced",
+         "question": "Do you think your season tickets are fairly priced for the section you are in?",
+         "counts": {
+          "No": 2,
+          "Yes": 12,
+          "Other": 1
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Good benefits",
+         "question": "Do you think you get good benefits being a season ticket holder?",
+         "counts": {
+          "No": 8,
+          "Other": 2,
+          "Yes": 5
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Ticket rep service",
+         "question": "Does your ticket rep provide good service?",
+         "counts": {
+          "Yes": 11,
+          "Other": 2,
+          "No": 2
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Fair, flexible policies",
+         "question": "Does your front office provide fair and flexible ticketing policies?",
+         "counts": {
+          "No": 4,
+          "Other": 3,
+          "Yes": 7
+         },
+         "n": 14,
+         "writeIns": []
+        },
+        {
+         "label": "Would recommend on value",
+         "question": "Would you recommend someone to become a season ticket holder on value alone?",
+         "counts": {
+          "No": 4,
+          "Other": 1,
+          "Yes": 10
+         },
+         "n": 15,
+         "writeIns": []
+        }
+       ],
+       "note": null
+      },
+      {
+       "type": "comments",
+       "title": "Comments on tickets",
+       "question": "Share anything else you have to say about home game tickets and ticketing policies.",
+       "items": [
+        "It’s difficult to utilize tickets, especially when a schedule is not released prior to purchasing season tickets. It makes it nearly impossible to purchase a group of season tickets because there is just so much unknown.",
+        "Other than having a regular seat not sure what bandit is off being a STM",
+        "The benefits haven't been as good as I'd expected, based on the early emails from the front office.",
+        "The discount for additional tickets barely covers fees",
+        "Ticket prices are good, if anything, they're too low and we should pay players and staff more! That said, having a big crowd is also very important to the players and experiential appeal, so I don't begrudge the FO having kids-attend-free games, for instance.",
+        "Ticketmaster has too many fees that i feel like are really unreasonable. Even with resold tickets."
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Stadium experience",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "How the stadium did",
+       "subtitle": "Share of 15 respondents.",
+       "categories": [
+        {
+         "key": "No",
+         "label": "No",
+         "role": "neg2"
+        },
+        {
+         "key": "Other",
+         "label": "Not sure or other",
+         "role": "neutral"
+        },
+        {
+         "key": "Yes",
+         "label": "Yes",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Feel safe",
+         "question": "Do you feel safe when attending games in your own stadium? Does security keep away supporters out of the home supporters end?",
+         "counts": {
+          "No": 5,
+          "Yes": 5,
+          "Other": 5
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Set up for standing",
+         "question": "Is the supporters section properly set up with standing in mind? Is the stadium and supporters section well maintained?",
+         "counts": {
+          "Yes": 9,
+          "Other": 4,
+          "No": 2
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Food and drink affordable",
+         "question": "Are food and drinks affordable? Are there options for people with dietary needs (i.e. vegan, nut-free, sugar free options, etc.)? Is water widely available at a low cost or for free (i.e. water fountains)?",
+         "counts": {
+          "No": 9,
+          "Yes": 4,
+          "Other": 2
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Security responds well",
+         "question": "How quickly does security respond to reported incidents? Does security handle these incidents in an appropriate manner?",
+         "counts": {
+          "Other": 9,
+          "No": 5
+         },
+         "n": 14,
+         "writeIns": []
+        },
+        {
+         "label": "Place to learn about supporter groups",
+         "question": "Is there an area where people can learn more about the supporter groups in your stadium?",
+         "counts": {
+          "Yes": 4,
+          "No": 6,
+          "Other": 5
+         },
+         "n": 15,
+         "writeIns": []
+        },
+        {
+         "label": "Accessibility accommodations",
+         "question": "Is there proper accommodations for people with physical disabilities (i.e. companion seating, accessible bathrooms/stalls) Does the team take into account the needs of people with sensory needs? (ie. sensory room/bags)",
+         "counts": {
+          "No": 4,
+          "Other": 5,
+          "Yes": 6
+         },
+         "n": 15,
+         "writeIns": []
+        }
+       ],
+       "note": null
+      },
+      {
+       "type": "comments",
+       "title": "Comments on the stadium",
+       "question": "Share anything else you have to say about the experience in the stadium.",
+       "items": [
+        "Food and drinks are expensive. Supporters section needs more information widely spread, people break open the locked seats at every game and they don't understand that they purchased GA tix. Away fans have been in the supporters section multiple times.",
+        "Food is overpriced, but there are good choices. The audio is horrible. The announcer/music is completely unintelligible. There were issues keeping people from mobbing players in the supporters section",
+        "Hope they use a different ticketing agency other than Ticketmaster.",
+        "Security could be better. Water stations aren't always there. Parking is too expensive and the attendants sometimes try to prevent us from parking with our Sirens tailgating group for no apparent reason.",
+        "Security could do  A better job of responding to incidents. Food is expensive and small portions.",
+        "The supporters section often gets inundated after a game wanting signatures. It is chaotic and people push and can get hurt. Also, there are not clear policies for away fans sitting in supporters section and it can get heated.",
+        "Too many questions ask too many questions. Food & drink pretty pricey but water readily available in Club. The way our stadium is set up the Supporters section isn’t loud enough compared to other stadiums (thinking Thorns/Reign, etc). Needs to be miked up!"
+       ]
+      }
+     ]
+    }
+   ],
+   "takeaways": [
+    "Ticketing mostly got good marks: 12 of 15 said prices were fair, 11 rated their ticket rep well, and 10 would recommend season tickets on value alone.",
+    "Benefits were the weak spot. 8 of 15 said season tickets didn't come with good benefits.",
+    "9 of 15 said stadium food and drink weren't affordable.",
+    "Nobody said security responds well to incidents: 9 of 14 weren't sure and 5 said no.",
+    "With 15 responses, each answer is about 7% of the total, so read these as signals, not settled numbers."
+   ]
+  },
+  {
+   "year": "2024",
+   "title": "2024 End of Year Survey",
+   "responses": 97,
+   "platform": "Google Form",
+   "when": "November 4–15, 2024",
+   "who": "2024 Sirens members, through social media, Discord and the newsletter",
+   "stats": [
+    {
+     "label": "Responses",
+     "value": "97",
+     "detail": "Everyone who submitted the form"
+    },
+    {
+     "label": "Sirens members",
+     "value": "99%",
+     "detail": "96 of 97"
+    },
+    {
+     "label": "Season ticket holders",
+     "value": "82%",
+     "detail": "80 of 97"
+    },
+    {
+     "label": "At more than 10 home games",
+     "value": "76%",
+     "detail": "74 of 97"
+    }
+   ],
+   "sections": [
+    {
+     "title": "Who answered",
+     "blocks": [
+      {
+       "type": "bars",
+       "title": "Home games attended in 2024",
+       "subtitle": "Share of 97 respondents.",
+       "items": [
+        {
+         "label": "0 - 5",
+         "count": 7
+        },
+        {
+         "label": "5 - 10",
+         "count": 14
+        },
+        {
+         "label": "More than 10",
+         "count": 74
+        },
+        {
+         "label": "I'm not sure",
+         "count": 2
+        }
+       ],
+       "denominator": 97,
+       "note": "The answer ranges overlap at 5, as they did on the form.",
+       "writeIns": []
+      }
+     ]
+    },
+    {
+     "title": "Tickets and the front office",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "How the Wave did on ticketing",
+       "subtitle": "Share of people who answered each question. The first four were asked of season ticket holders.",
+       "categories": [
+        {
+         "key": "No",
+         "label": "No",
+         "role": "neg2"
+        },
+        {
+         "key": "Other",
+         "label": "Not sure or other",
+         "role": "neutral"
+        },
+        {
+         "key": "Yes",
+         "label": "Yes",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Fairly priced",
+         "question": "Did you think your season tickets were fairly priced for the section you were in?",
+         "counts": {
+          "Other": 5,
+          "Yes": 70,
+          "No": 5
+         },
+         "n": 80,
+         "writeIns": [
+          "It was annoying that one time purchases were about the same cost.",
+          "Yes only because they were grandfathered price",
+          "No comment",
+          "The price increase was too much for the 2025 season",
+          "somewhat fairly priced"
+         ]
+        },
+        {
+         "label": "Good benefits",
+         "question": "Do you think you got good benefits being a season ticket holder?",
+         "counts": {
+          "Yes": 45,
+          "No": 27,
+          "Other": 8
+         },
+         "n": 80,
+         "writeIns": [
+          "so-so",
+          "We just hope that the STM event was more organized",
+          "Yes other than that horrible STM event when we stood in line in the sun for hours to be told we wouldn't get any autographs (we were less than 10 from the cut). Staff should have capped the line.",
+          "In theory, yes. The benefits that Wave attached to membership seem appropriate. However, the execution of those benefits (e.g., disastrous meet and great day) was disappointing.",
+          "Meh? It’s nice to know you have tickets to all the home games, but otherwise I don’t see a ton of other benefits",
+          "We received a few benefits",
+          "No! I think we should get all the promo items single ticket buyers get. And we should get early entry to the stadium every game. And the meet n greet was shit.",
+          "Yes, on merch but no on parking"
+         ]
+        },
+        {
+         "label": "Ticket rep service",
+         "question": "Did your ticket rep provide good service?",
+         "counts": {
+          "Yes": 58,
+          "Other": 12,
+          "No": 10
+         },
+         "n": 80,
+         "writeIns": [
+          "I have never spoken to a ticket rep.",
+          "My rep was hit or miss. Either very responsive or not there at all.",
+          "Didn’t engage with ticket rep",
+          "Not needed!",
+          "I didn't need them for anything.",
+          "I didn't really use the ticket rep",
+          "Neither yes or no",
+          "I didn’t ever speak to one",
+          "Indifferent. Never got a response the 1 time I reached out via email, but it was able to get an answer at a home game from another Wave employee",
+          "50/50 they always comeback with generic scripted responses. Plus other than push you to get the Season tickets you don't hear from them or receive any support after or during the season.",
+          "Never engaged"
+         ]
+        },
+        {
+         "label": "Would recommend on value",
+         "question": "Would you recommend someone to become a season ticket holder on value alone?",
+         "counts": {
+          "No": 17,
+          "Yes": 56,
+          "Other": 7
+         },
+         "n": 80,
+         "writeIns": [
+          "not until Ellis and front office is cleaned out",
+          "Yes, but not in my section",
+          "Depends on how the club leadership responds to the recent claims of a poor culture",
+          "Not at the increased price",
+          "Only for general admission",
+          "Hard to recommend given minimal benefits",
+          "Depends on where they would want to sit."
+         ]
+        },
+        {
+         "label": "Fair, flexible policies",
+         "question": "Does your front office provide fair and flexible ticketing policies?",
+         "counts": {
+          "No": 11,
+          "Yes": 65,
+          "Other": 21
+         },
+         "n": 97,
+         "writeIns": [
+          "The fees are too expensive but I’m not sure if that’s the FO’s fault or Snap or Ticketmaster.",
+          "not sure what this means or what I'd ask for that'd fall under fair or flexible",
+          "No idea",
+          "Didn’t engage with front office",
+          "Tickets for the missed home game should have at least had the option of a refund.",
+          "Not sure. A flex pass would be cool, I don't think they have that.",
+          "Don't know as it hasn't come up.",
+          "Not sure, would I like to get my money back when a game is canceled? That would be nice",
+          "not sure i can say yes or no",
+          "Other than not refunding for last game",
+          "Not sure how to answer this as it’s highly subjective and two different things",
+          "Unsure. Especially how badly they handled the last game.",
+          "Not for the last game.",
+          "Did not attend home games",
+          "Kind of. I like the 2025 policy where we can transfer to a different date",
+          "I don’t have a lot to compare it to"
+         ]
+        }
+       ],
+       "note": "Write-in answers count as \"Not sure or other\" and are listed below."
+      },
+      {
+       "type": "comments",
+       "title": "Comments on tickets",
+       "question": "What else would you like us to know about home game tickets and ticketing policies?",
+       "items": [
+        "A better customer service experience",
+        "As long as something is refunded for the final game- I think tickets are reasonably priced and having season tickets is worth it.",
+        "Continue to make sure that STH get access to giveaways that are linked to buying certain single match tickets",
+        "Credit instead of refund for the moved game was dumb. Don’t feel like fighting for refund after hearing the experiences others have gone through. Do look forward to being able to swap a ticket if can’t make a game next season",
+        "Had a horrible SNAFU with original tickets for Snapdragon and front office dealt with us poorly.",
+        "How to fix Ticketmaster to work when at the stadium?  Free wifi at gate?",
+        "How to get Sycuan Pier tickets. How to get discounted parking.",
+        "I do not get the emails at my main account no matter what I do. I hate finding out information from social media and nothing from the Wave.",
+        "I dont know what those are",
+        "I like the new option of switching tickets to other areas for some games",
+        "I think exchanges are coming? If not, then exchanges would be nice.",
+        "I understand that next year we are sharing Snap with MLS. This year I’m hoping that if for days we do move to Torero, maybe a discounted ticket at Torero for STM.",
+        "I use 3rd party apps to buy tickets",
+        "I wish the ticket included a PRONTO fare! I hate that so many of the \"benefits\" revolve around parking discounts. We shouldn't be incentivizing unsustainable modes of travel, and it doesn't help folks who can't/don't/choose not to drive.",
+        "If the prices go up, I will attend less games.",
+        "I’m not sure why this is being asked.",
+        "Offering a credit for parking for the game that was moved rather than a ticket credit deduction for next season is incredibly weak.",
+        "Season ticket holders should not have to go in 1.5 hours early or more to get the giveaway.  Season ticket holders should have access to all giveaways,",
+        "Staff at the stadiums need to work on their customer service skills and consistency in policies. Also, not making up policies on a whim (e.g. can’t bring water bottles, requiring people to take off hoodies for security, etc. )",
+        "The ability to donate my tickets to a community group(i.e. Girls Club of SD) so kids and families without the funds to attend the matches.",
+        "The fees and parking seem really steep.  Smaller games they don't open upper deck for cheaper tickets so I found myself going to less games.",
+        "The price hiking every year is a lot",
+        "Understand that they want to make as much revenue as possible, but it seems like the longer you wait, the lower tge ticket prices you get for additional tickets.",
+        "We can afford our tickets now but it seems as though we will be priced out of our section soon. And most likely won’t want season tickets in another section:",
+        "When a transfer went wrong, the office wouldn't let my friend in, and when I followed up later, the response I got was basically, tough luck",
+        "Why are the Sirens asking these questions.... Seems like something Wave should be focusing on. And Sirens should spend more time with internal community work.",
+        "Why do some sections of STM have to leave the stadium before others",
+        "Lower parking costs",
+        "N/A",
+        "Nothing really",
+        "Parking is expensivo"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Stadium experience",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "How the stadium did",
+       "subtitle": "Share of 97 respondents.",
+       "categories": [
+        {
+         "key": "No",
+         "label": "No",
+         "role": "neg2"
+        },
+        {
+         "key": "Other",
+         "label": "Not sure or other",
+         "role": "neutral"
+        },
+        {
+         "key": "Yes",
+         "label": "Yes",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Feel safe",
+         "question": "Do you feel safe when attending games in your home stadium?",
+         "counts": {
+          "Yes": 89,
+          "Other": 6,
+          "No": 2
+         },
+         "n": 97,
+         "writeIns": [
+          "I had to inform security about overserved persons (alcohol) repeatedly using homophobic language at Cup games, not regular league matches. These were concacaf games. I felt that they should have been escorted out. Instead, they were warned and allowed to stay. After letting security know about the continuation of their behavior, nothing further was done. This was a failure from security to keep the fans safe. As a member of the lgbtq community who goes to these games with my kids, it's embarrassing that this behavior is tolerated and swept under the rug. I thought there was zero tolerance on this kind of behavior.",
+          "Depends. Safety is different to everyone. For the most part yes I feel safe.",
+          "Sometimes. I have been seated in front of very hostile and racist fans in the past",
+          "I've had people come into my sea at halftime and responded to my request to move. I also alerted the stadium via survey.",
+          "Did not attend home games",
+          "This depends. The fan environment can be very toxic when the team is not winning"
+         ]
+        },
+        {
+         "label": "Food and drink affordable",
+         "question": "Are food and drinks affordable?",
+         "counts": {
+          "No": 52,
+          "Yes": 30,
+          "Other": 15
+         },
+         "n": 97,
+         "writeIns": [
+          "18 dollar beers.",
+          "We can afford them, but many can't.",
+          "Typical stadium prices",
+          "Yes and No",
+          "Prices are high but I guess similar to other stadiums?  The ability to tailgate to save on the cost of food and drinks is important.",
+          "Theyre not affordable, but theyre not more than expected or what seems average at a stadium/event.",
+          "Food is affordable. Drinks are overpriced.",
+          "a few things are fair priced others are high",
+          "Bring back the $20 dollar perk. Some establishments don’t even take the season ticket holder discount (mostly food trucks).",
+          "Kinda. I wish the food was closer to what you'd get from the vendors outside the stadium, but it is what it is, I guess.",
+          "\"Affordable\" is relative -- Although the value isn't great, the prices are on par with other stadium venues.",
+          "Did not attend home games",
+          "Prices are steep for families",
+          "I don’t purchase dirks or food, mostly to stay a bit healthier as well as paying for what could be higher prices.",
+          "Was the discount really equal to the food vouchers of the past?"
+         ]
+        },
+        {
+         "label": "Options for dietary needs",
+         "question": "Does the stadium have options for people with dietary needs?",
+         "counts": {
+          "Yes": 17,
+          "No": 20,
+          "Other": 60
+         },
+         "n": 97,
+         "writeIns": [
+          "Not many",
+          "OK options.  Could do better with gluten free labeling and care.",
+          "Don’t know",
+          "Need more healthy options",
+          "Kid friendly",
+          "More options, please!",
+          "Kind of but not great for vegetarian/vegan options, depends on the food trucks present",
+          "yes but limited",
+          "We are vegetarian and there are options for us but I haven’t checked vegan or gluten free",
+          "I think the food is mostly unhealthy food, but I don’t dislike the options.",
+          "Yes, but not enough.",
+          "I’m so confused by this question. Leadership knows what they sell and not. I’m not sure why this is being asked of us.",
+          "The options are not good for only vegan food",
+          "Unknown. I don’t order this type of food",
+          "It seems like they do from what I have read on the discord or on the socials."
+         ]
+        },
+        {
+         "label": "Security responds well",
+         "question": "Does stadium security respond to incidents in an appropriate manner?",
+         "counts": {
+          "Other": 71,
+          "Yes": 16,
+          "No": 10
+         },
+         "n": 97,
+         "writeIns": [
+          "Asking someone to remove a jersey from a country as a political statement when it wasn’t actually in their policy and right to do so.",
+          "Absolutely not. When security positions are just contracted, the people on duty change every match and no one actually knows or has any stake in things running smoothly.",
+          "Not always, depends on who responds",
+          "they are overbearing and ridiculous most of the time.",
+          "Inconsistent. Some guards are great at crowd management while some don't even know where first aid is located. Security tends to panic when people don't leave the stadium immediately, and tries to shoo people out even when there are scheduled presentations post-game. For Alex Morgan's retirement game, they tried to make people leave before she was awarded player of the match. There really needs to be better communication between the Wave's events team and Security because they are not in the same page.",
+          "Unknown. Never had to use"
+         ]
+        }
+       ],
+       "note": "\"Unsure\" was an answer choice for dietary options and security, and most people picked it."
+      },
+      {
+       "type": "bars",
+       "title": "Accessibility features used",
+       "subtitle": "Share of 97 respondents. People could pick more than one.",
+       "items": [
+        {
+         "label": "None",
+         "count": 72
+        },
+        {
+         "label": "Accessible/ADA seating",
+         "count": 16
+        },
+        {
+         "label": "Accessible/ADA parking",
+         "count": 10
+        },
+        {
+         "label": "Shuttle service",
+         "count": 7
+        },
+        {
+         "label": "Closed captioning",
+         "count": 5
+        },
+        {
+         "label": "Quiet room",
+         "count": 4
+        },
+        {
+         "label": "Other",
+         "count": 4
+        }
+       ],
+       "denominator": 97,
+       "note": null,
+       "writeIns": [
+        "Seats moved due to sun",
+        "Wheelchair escort",
+        "Not used but tried to use",
+        "Free water refill stations"
+       ]
+      },
+      {
+       "type": "comments",
+       "title": "Accessibility suggestions",
+       "question": "Please share any accessibility accommodations that would improve the home game day experience.",
+       "items": [
+        "A golf cart ride from the tailgate lol. So we can join you guys next year!",
+        "Advance claim to accessible seating rather than first person services in person",
+        "Having no colored smoke released would be great for my lungs",
+        "I don’t really have an improvement.",
+        "No more fireworks, no more smoke, ALWAYS having ASL interpretation, putting the closed captioning on the main screens and not just the side screens, SHADE BECAUSE PEOPLE LITERALLY CANNOT HANDLE THE HEAT SOMETIMES, more spaces/options with accessible seating so folks don't only have one place to \"choose\" from",
+        "Not having a snapdragon sniff dog try to attack my service dog.",
+        "One time we had an ADA attendee with us and we provided proof of temporary ADA placard to the parking attendant and they still wouldn't let us park in the ADA parking lot because apparently we needed to have purchased an ADA parking with the stadium. After that we checked on line and there is no \"special\" parking other than using the parking lots available for your needs. It was a total mess!",
+        "The shuttle service was wonderful so were the Ada seats for people with limited mobility. The seat numbering is hard to find for those seats though so you never know if you’re in the right place.",
+        "The stupid seats being locked up. Also accessibility needs and contacts should be part of every message the club and wave and maybe even sirens sends out. Normalize  the fact that game attendance is different for everyone and all are welcome.",
+        "We tried to get information about the shuttle in advance of bringing an disabled friend to a game. We asked two employees at the stadium, one in an info booth and one working parking. Neither knew anything about a shuttle. I still don't have an answer.",
+        "N/A",
+        "n/a",
+        "N/a",
+        "No",
+        "No smoke",
+        "Not quite sure"
+       ]
+      },
+      {
+       "type": "comments",
+       "title": "Comments on the stadium",
+       "question": "What else would you like us to know about the experience in the stadium?",
+       "items": [
+        "Field issue needs to be resolved",
+        "For afternoon games, it's way too hot in the sun. The stadium needs to be retrofitted with more shade, or games need to be in the evening.",
+        "Give more training to security. So many contradicting answers every time going through security",
+        "I dont like security stopping people from the upper tiers getting to the lower stands to try to get signatures. Thats part of the fun and part of the experience of going. Yes hold them back till the end of the game but when the game is over let them through after seat holders get a chance to leave. Otherwise people just spend the last half hour of the game rushing down anyway.",
+        "I had [premium seats] in 2024 and the whole experience from the entrance till the end of the game was a nightmare every single game (security at entrance was rude, we had to show out tickets 3-5 times, we had guards blocking our view, we didn’t have access to water in during those hot days… etc etc etc). All the issues were reported to my rep and most of them were solved right away. We are not renewing in that section, we are going back to COX.",
+        "I had a rude encounter with a traffic staff at Snap. But we have been going for more than 10 times so odds are not bad lol",
+        "I hated [the stadium DJ] more with every game. We called him DJ Laser Sounds.",
+        "I missed Alex Morgan’s last 13 minutes because a sniffer dog for Snapdragon stadium charged at my service dog who was doing nothing. When I took the time to report it I missed her send off. I never heard back from them but my service dog was almost attacked walking into the stadium.",
+        "I usually have a wonderful experience",
+        "I would like more healthy food options--fruits, vegetables, grain bowls, salads, fish, etc.",
+        "It would be nice for all of the players to stay after the game and sign memorabilia and take pictures.  It seems like a select few, but we want to have pictures with the stars.",
+        "It's pretty wild that once you leave your seat at the end of the game they won't let you go back for anything. I left my sunglasses accidentally once and immediately turned around, and could SEE them from where I was standing and they wouldn't let me get them.",
+        "More merch stands would be nice.",
+        "Need to have restaurants and trucks list dietary and cross-contamination issues.",
+        "No designated section for autographs and inconsistent information from security can lead to dangerous crowding",
+        "Parking is incredibly overpriced compared to the cost of a ticket.  That is our main drawback of the overall game experience (we have physical limitations that would make rideshare, public transportation, etc. difficult.)  Having said that, it is very convenient and easily accessible.  If it were less expensive, we would attend more games in person.",
+        "Please make them stop locking the seats up in the general admission and cove section. It is not friendly to anyone who needs to sit for a variety of reasons and obstructs the view for others. it is inaccessible and I have complained in every single stadium survey.",
+        "Ridiculous that they don’t allow for the aluminum beer cups to come BACK IN to the stadium. I sometimes get a beer and then a bunch of ice water refills. But can’t bring in the empty cup if I just want to reuse for ice water.  Yet I can bring in a metal thermos. WTF?",
+        "Security around the Cove has seemingly improved over the course of this season, but I'll note there are frequently still children running through rows of the Cove post-game -- it seems access to the Cove is being policed strictly from the terrace entrance and not at all from laterally adjacent sections.",
+        "Security has improved over the season.",
+        "Security stationed particular at the premium entrance should begin to recognize season ticket holders as the season progresses and understand that we understand the entry process and know where we are going.",
+        "should not have day games",
+        "Snapdragon security is very inconsistent. Would like the Wave to take some ownership of inconsistencies instead of just pointing fingers",
+        "Some games had very few good options. It was inconsistent",
+        "The lack of medical response in the stands is a problem",
+        "The prices are too high, especially combined with super expensive parking costs",
+        "The rules of what you’re allowed to or not bring into the stadium can sometimes prevent you from bringing merch you received at a previous game which is just silly. The stadium also needs a formal bag check system rather than temporary trucks outside",
+        "The stadium is great- the field not so much.",
+        "The stadium needs shade. The bathrooms also run out of toilet paper. Which no one wants to deal with and shouldn’t have to.",
+        "The staff is very friendly for the most part.",
+        "The traffic control after the games is horrible.  There should be a much better and clearer way for rideshare pickup after a game.",
+        "There were several instances of inconsistent security procedures",
+        "We still need shade. Also-When the stadium is full it takes way too long to use restroom, get food or a drink.",
+        "Wellll, the condition of the field obviously has affected play and safety of the players, leading up to and including the move of the last home game which was a hugely negative experience, even given the Wave's troubled, 2024 season.",
+        "Would like the water stations year around since I’m always trying to bring an empty, refillable water bottle.",
+        "Would love a fresh food market option (fruit, etc) and rice bowls (everything is fried, high fat, excessively salty)",
+        "N/A",
+        "Not family friendly",
+        "We need shade!"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Sirens activities",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "How people feel about Sirens activities",
+       "subtitle": "Share of people each item applies to, sorted by how many were very satisfied.",
+       "categories": [
+        {
+         "key": "Very unsatisfied",
+         "label": "Very unsatisfied",
+         "role": "neg2"
+        },
+        {
+         "key": "Somewhat unsatisfied",
+         "label": "Somewhat unsatisfied",
+         "role": "neg1"
+        },
+        {
+         "key": "Neutral",
+         "label": "Neutral",
+         "role": "neutral"
+        },
+        {
+         "key": "Somewhat satisfied",
+         "label": "Somewhat satisfied",
+         "role": "pos1"
+        },
+        {
+         "key": "Very satisfied",
+         "label": "Very satisfied",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Newsletter",
+         "question": "[Newsletter]",
+         "counts": {
+          "Somewhat satisfied": 25,
+          "Very satisfied": 61,
+          "Neutral": 10
+         },
+         "n": 96,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 1
+         }
+        },
+        {
+         "label": "Tailgates",
+         "question": "[Tailgates]",
+         "counts": {
+          "Very satisfied": 44,
+          "Somewhat satisfied": 7,
+          "Neutral": 21,
+          "Somewhat unsatisfied": 3
+         },
+         "n": 75,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 22
+         }
+        },
+        {
+         "label": "Discord",
+         "question": "[Discord]",
+         "counts": {
+          "Very satisfied": 45,
+          "Neutral": 10,
+          "Very unsatisfied": 4,
+          "Somewhat satisfied": 21,
+          "Somewhat unsatisfied": 5
+         },
+         "n": 85,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 12
+         }
+        },
+        {
+         "label": "Drums and chants",
+         "question": "[Drums and chants]",
+         "counts": {
+          "Somewhat satisfied": 29,
+          "Very satisfied": 41,
+          "Neutral": 12,
+          "Somewhat unsatisfied": 8,
+          "Very unsatisfied": 3
+         },
+         "n": 93,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 4
+         }
+        },
+        {
+         "label": "Watch parties",
+         "question": "[Watch parties]",
+         "counts": {
+          "Very satisfied": 22,
+          "Somewhat satisfied": 28,
+          "Somewhat unsatisfied": 8,
+          "Neutral": 15,
+          "Very unsatisfied": 1
+         },
+         "n": 74,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 23
+         }
+        },
+        {
+         "label": "Sirens discounts",
+         "question": "[Sirens discounts]",
+         "counts": {
+          "Very satisfied": 21,
+          "Somewhat satisfied": 16,
+          "Neutral": 41,
+          "Somewhat unsatisfied": 5
+         },
+         "n": 83,
+         "writeIns": [],
+         "excluded": {
+          "label": "Doesn't apply to me",
+          "count": 14
+         }
+        }
+       ],
+       "note": "People who said an item doesn't apply to them are left out; the count is in the table."
+      },
+      {
+       "type": "bars",
+       "title": "Events people want more of in 2025",
+       "subtitle": "Share of 85 people who answered. They could pick more than one.",
+       "items": [
+        {
+         "label": "Volunteer events",
+         "count": 46
+        },
+        {
+         "label": "Social events",
+         "count": 44
+        },
+        {
+         "label": "Social justice and activism",
+         "count": 43
+        },
+        {
+         "label": "Other San Diego sports events",
+         "count": 35
+        },
+        {
+         "label": "Watch parties for other soccer leagues",
+         "count": 24
+        },
+        {
+         "label": "Donation drives",
+         "count": 24
+        },
+        {
+         "label": "Other",
+         "count": 10
+        }
+       ],
+       "denominator": 85,
+       "note": null,
+       "writeIns": [
+        "drum practices, chant workshops",
+        "Out of curiosity, what social justice and activism events happened this past year?",
+        "speakers",
+        "This is my first year so I’m just getting to know what all the Sirens do/offer/participate in",
+        "I’ll think more on this but I have some rough ideas like partnering with local businesses and doing some soccer 101 stuff",
+        "Not reacting to literally everything and anything just because Twitter wants you to.",
+        "Events where we can ask questions to the coaches and managers.",
+        "I’d like to see a 50/50 raffle within the Cove or sirens. 50% going to whoever wins and the other 50% going to a local charity",
+        "More open training day group events. I wasn't even aware of these before the last week of the season.",
+        "I want to meet other Sirens but have only had luck at tailgates, and since I don't attend many games in person, it's hard.  I'm in North County so going to watch parties has been kind of tough too.  Maybe more North County meet ups?"
+       ]
+      },
+      {
+       "type": "comments",
+       "title": "Comments on Sirens membership",
+       "question": "What else would you like us to know about Sirens membership?",
+       "items": [
+        "After the result of the election, I honestly did not know where the Sirens are at. I know it is not a political type of organization. However as a lesbian, I would like to support and be in one that supports that part of me.",
+        "Chants/songs should be available on Discord so other supporters throughout stadium can join in",
+        "Discord was too hard for me to figure out.  Is it possible to have distinct sections for selling tickets;  comments on games, coaching; watch parties; special sirens events?",
+        "Focusing too much lately on activism",
+        "Happy to support such a great group of people. Sirens make the home games so enjoyable - happy to be a member.",
+        "I have been extremely unhappy with the feed and disrespect on the insta from the Siren members.  We are a support group and I don't feel this group is supportive at all.  People in this group act like they are entitled to know information that is simply none of our business.  They post negative and personal attacks on people who work at The Wave.  This is not the role of a supporters group.  We should be talking about the game and about soccer.  Not about politics and unfounded attacks and allegations that have NOTHING to do with us.  We should be complaining about our teams lack of speed.  Our teams lack of discipline.  Our outside defenders who won't mark.  Our midfield which cannot create any transition with controlled play.  The fact that we don't (although with our newest addition) a finishing forward.  We should NOT be talking politics, social justice or activism.  This is a game.  A sport.  FUN.  I am seriously considering quitting the Sirens because no one wants to discuss the team and the game of soccer, instead they want to bash people.  I think the president and the board need to re-establish the focus and the role of this group.  That role should be a supportive group of The San Diego Wave.  And, lets be real: the only reason people are negative and angry is because we weren't winning this year.  Everyone loves a winner, but the true colors come out when a team is losing.  I don't identify and don't want to be a part of a group of people who are vigilantes intent on bashing and representing people when they are uninformed and have a false sense of entitlement.  I want to surround myself with people who just want to watch soccer, or any sport, and have a constructive a fun time.  I am disappointed the president and the board have chosen to allow this group to run outside the scope of a fan club and turn this into a political social media account.",
+        "I hope the Sirens will update the language around its membership and mission because it very much feels performative right now. Sirens say it's a space to support players off the field and build community, but the Discord feels like an echo chamber of the same 15 people. 15 people communicating is worth it, don't get me wrong, but when choices and decisions are made primarily through this platform, it really doesn't feel like it's representative. Aside from Discord, there are no ways for members to know who has said what, so even when/if info is collected in other spaces, members on Discord have no idea. In this vein, I would have liked more transparency and shared communication/meeting notes from the Officers. Holding the Sirens Officers accountable feels like an impossible task to attempt because any signs of concern are taken as personal affronts. Who have the Sirens stood up for this year? Who, in the community or in the club, have Sirens actually taken a stand for? And not only taken a stand, but taken the necessary follow up actions (because sending one email saying the Wave needs to explain themselves and then literally not sending any follow up emails... C'mon, you guys, that's just common sense)? The most community involvement I saw was following the horrendous regional flood and I thought that was great because it demonstrated who the Sirens project to be.... But what about other relevant community and global human and civil rights issues? The silence from the SG this year has, unfortunately, been incredibly loud for several of us; so maybe change what the Sirens proport to stand for, because as is, it's false marketing.",
+        "I love the leadership of this group! I’m glad to be a part of the Sirens!",
+        "I think the Sirens have been overly involved and I appropriately so with the office politics and the drama surrounding many things this season. I don’t feel that is the role of the sirens and while comments and statements can be made they may not reflect all sirens or fans and our involvement or perceived entitlement to know or be connected to club politics and even investigations is an overstep. Build community, yes please, create a safe fun space in the cove, yes please, but it feels exclusive sometimes to be a siren and more about the drama than the joy of the game and the team we love. I realize this season has been hard and I have my own opinions but I discuss them individually and don’t think leadership in siren’s or the sirens themselves are a platform to meddle. That said accountability for concerns in terms of sharing them up is valuable but we or rather I feel we are not police or enforcers and I think we can reflect values that do not overstep.",
+        "I understand that there have been some lawsuits and other things between the wave employees and the wave management. I somehow get the feeling that the sirens leaders are interacting with wave management and it’s not clear how they are getting direction on that. When the sirens are publishing things on social media making statements about wave management, it is unclear how they came to the conclusion that that’s what the siren members wanted. I’m not saying what they did is wrong or not approved of by a lot of people, but it’s just really unclear who is making decisions about that kind of stuff.",
+        "I wish there were other ways to engage than Discord.",
+        "I'm really happy to support the Sirens, but I'm not super involved. Hopefully that's o.k., I enjoyed getting the newsletters and supporting the Wave!",
+        "It is not worth it. I have met multiple officers multiple times over 2 years, had conversations with them, etc. and they never recognize me and continue to ask if I want to join. We are paying members and are told we can’t move beyond a point UNLESS you know an officer and they are ok with you doing that. We aren’t included in some wave events with you so sometimes that is our only opportunity, especially kids, to meet players and I watched as people were basically told “oh we’ve seen you standing here the whole game but to get your Sheridan jersey signed you need to go to a different section. You can’t cross the pink tape.” Like what?! They have no chance at that point. They are paying siren members and you guys act like the council is high and mighty. It’s recognized you do the banners and chants and drumming, but a lot of times it seems like you guys want this club to be exclusive to just the officers and their friends. I couldn’t even be apart of the discord this season because the talk about the players is so non constructive and I know as a person who played, would be extremely hurtful. Supporters don’t say such things about the people they supposedly support and I actually feel like a lot of sirens don’t actually like the team or know soccer and just want to be apart of a group. I will still be in the section standing and cheering because that’s where my season tickets are, but I won’t be apart of the sirens group anymore. The $30 isn’t worth it.",
+        "Other than, a BIG THANK YOU for making the season more enjoyable during home games.",
+        "Since you have the ear of the club, it would be nice to bring up security concerns as I stated above regarding behavior that goes against its own policies and having security follow though.",
+        "That crank-up air-raid siren is SO LAME!!!!",
+        "The discord chat has become so toxic. It seems like the same people talking. The only time others chime in is when they need tickets or the sirens ask for input on something that seems important. The amount of mansplaining that goes on in it is absolutely ridiculous. Some men seem to just want to hear themselves talk. I’m not sure why the sirens never asked for Jill Ellis to be fired. We got asked for input and multiple people responded with their distrust of her and how this team is being handled. Why ask for input if it’s just going to be ignored? If leadership are Ellis backers I think we deserve to know this. Maybe I would have voted in the leadership election for change but based on who was elected and re-elected I doubt change will happen. Especially when you have someone stating this in their bio while running “My person interest isn’t in corporate or legal proceedings; my focus will be on proactive responsibility to our sirens community and our core mission of optimizing game day experience.” We are the supporters group of a team that’s currently being sued. Our president is being sued. In a league that is being sued by former workers. This is definitely something we should pay attention to and not minimize for the sake of a good atmosphere at a game. I’ve been highly disappointed in the sirens this season and their inability to do what’s right.",
+        "The discord general chat has so many conversations and participants, if you don't stay on top of it multiple times a day, I find it daunting to get involved.  I infrequently use Discord because it's such a time sink to catch up on the whole thread, so as a result don't participate in many discussions.  It may be worth breaking out a few additional sub chats to make it more manageable for those that don't have time to participate daily but want to remain involved.",
+        "The Sirens are great!!  Thanks to everyone who works hard to make it that way and keep trying to improve things too.",
+        "There are a couple people that ruin it for everyone.",
+        "There are never / or very rarely watch parties in SD North County. Is there a way to have 2-3 a year in Encinitas, Carlsbad, Oceanside area?",
+        "This has been a great way to build community!",
+        "<3",
+        "It's great!",
+        "More unique merch",
+        "n/a"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Merchandise",
+     "blocks": [
+      {
+       "type": "comments",
+       "title": "Merchandise people want",
+       "question": "What kind of Sirens merchandise would you like to see?",
+       "items": [
+        "Another jersey and/or jacket",
+        "Can we get a summer scarf version?LOL I would like to wear it but its so dang hot in the summer. Maybe just a shirt or something. (BTW I got the Sirens jersey… LOVE IT!)",
+        "Collabs with local artists, such as GF Murals, and others.",
+        "Flags, hats, patches & pins.",
+        "Hats and coozies. JERSEY!!! Even if it is less awesome than last time.",
+        "Hats would be cool. Pride stuff.",
+        "Hats, beanies, lighter weight hoodies",
+        "Hats, tshirts, more cool jerseys",
+        "Hawaiian shirts, shorts, socks, pins, stickers, car dangling things",
+        "Hoodies, Jerseys and hats",
+        "I enjoy the shirt/sweatshirt options",
+        "I love the jerseys and v-necks! I don't have much need and thus interest for most other kinds of apparel. Stickers also always great.",
+        "I would not like to see any merchandise",
+        "Lanyard/keychain, more posters like the season 1 poster",
+        "Larger scarf selection/different scarf options",
+        "Maybe a water bottle? One allowed in the stadium. Insulated. \nA clear backpack for stadium. \nA Siren rain poncho. Reusable \nA weatherproof blanket for the annual practice watch party 😉 \nbucket hat w chin cord \nSiren rainbow socks, or wave colors\nA bead bracelet?\nSunscreen?\nOne of those wooden bottle openers?",
+        "More affordable woman's gear - tshirts, etc",
+        "More variety of apparel. Would love a baseball cap. Haven't paid as much attention to merch before this year so not sure what has been available in the past.",
+        "Patches. Pins. Ball caps.",
+        "small banner/flag, magnets",
+        "Stretchy captain armbands; headbands with coral or other sea items",
+        "Sweatshirts, flags, totes",
+        "T-shirts w smaller graphics, lightweight sweatshirt",
+        "T-shirts? Something distinctive and cool looking that's more affordable than a full jeresy?",
+        "TBH, I've already got more than enough merch!   : )",
+        "Temporary Tattoos and iron on patches - FC gear is so pricey",
+        "The scarves with pockets.  Nice sweatshirts.  Dual insulated mugs. Fun Wave shirts.  Insulated water bottles.",
+        "Think the wave surfboard given to player of the match would be cool logo on shirts",
+        "Trading cards for sirens like pronto. Love the scarfs",
+        "Unique items or items with unique designs that match the Sirens' avant garden cultural/personality.",
+        "Water bottle, MagSafe phone case, press on nails",
+        "2025 Jersey",
+        "Ball caps",
+        "Baseball caps",
+        "beanies",
+        "Blankets!",
+        "Gloves, socks, vests",
+        "Hats",
+        "Hats, shirts, hoodies",
+        "Hats, Sunglasses",
+        "I like the merchandise",
+        "jacket/hoodie",
+        "Jerseys",
+        "Koozies",
+        "Lisence plates",
+        "Love the scarves",
+        "More shirts. Hats/visors",
+        "Noisemakers.",
+        "Shirts",
+        "Shirts",
+        "Shirts and patches!",
+        "Shirts or caps.",
+        "Stuff for animals.",
+        "Sweatshirt",
+        "Sweatshirt!",
+        "Tank top",
+        "Tote bags, hats, shirts"
+       ]
+      },
+      {
+       "type": "comments",
+       "title": "What would make people buy more",
+       "question": "What would make you buy more Sirens merchandise?",
+       "items": [
+        "A tifo collection - shirts inspired by a tifo.",
+        "annual collectibles sounds fun but keep them small, I dont need more stuff in my house",
+        "Annual collectibles. LOVED the first year poster with everyone’s name. Really regret on getting that",
+        "Anything positive, maybe supporting the Impact Players annual cause",
+        "Bigger discounts for season ticket members only",
+        "Collectibles and things to avoid competing with jerseys and wave shirts and such",
+        "I can’t afford more things",
+        "I don't think I need more incentives to buy merch. Although, some kind of special/end of season tifo collage design would be epic!",
+        "I feel like I already own much of it. One or two new t-shirt designs per year is about what I'd aim to acquire for myself.",
+        "I forget about the merchandise, some random drops or combo deals would be great. I’m interested in a jersey, missed out last time!",
+        "Idk. The octopus is cool tho \nFor collectibles maybe a real gold necklace in the S siren logo? \nI dont but people seem to like beer coozies",
+        "More interesting merchandise.",
+        "More messages about it, ADHD is real",
+        "Nice quality t shirts sweatshirts. The designs are great, but the quality wasn’t always fantastic (yes I understand this is print on demand thing)",
+        "Player banners on TShirts",
+        "Price. The online shop adds too much. Delivery at tailgate.",
+        "Shirts:  higher quality than season 1 shirts, more designs for pride, heritage events, cove artwork designs",
+        "Special events, fair prices,",
+        "Things that are sustainable and affordable",
+        "Tifo designs & annual collectibles.",
+        "Tifo designs or mini tifos might be cool.",
+        "Tifo designs!  Annual collectables sound good too, but preferably not clothing.",
+        "Yes, I like the Tifo designs idea.",
+        "A hat",
+        "A winning team.",
+        "All of above",
+        "All of the above",
+        "All of the above",
+        "Annual collectables",
+        "Annual collectibles",
+        "better designs",
+        "Collectables",
+        "Colorful",
+        "Don’t need more stuff",
+        "Events",
+        "Great designs",
+        "More options and designs",
+        "More variety",
+        "Not sure",
+        "Open trainings",
+        "Style, style, style.",
+        "Tifo designs, maybe",
+        "Tifo, Single print items",
+        "Todo designs",
+        "Unique design",
+        "Yes"
+       ]
+      },
+      {
+       "type": "comments",
+       "title": "Design ideas",
+       "question": "What design elements would you like to see in next year's merchandise?",
+       "items": [
+        "[designer] is a genius, no comments",
+        "A surfboard with a bite taken out would be cool",
+        "Can we get rid of the creepy zombie hands? I loved our last tifo and would love to see the blue winged sirens more",
+        "Dead grass (jk) - maybe a megaphone shooting bubbles?",
+        "I defer to the creatives!",
+        "I don’t want to buy Sirens merch.",
+        "I loved the tentacles on the scarf. More sea references are great.",
+        "I would like to see more Waves on the merch",
+        "Idk, the graphic designer is super creative",
+        "Insulated drink pockets in the scarf",
+        "It’s a small thing which may be a little more cost but I would love to see personalized scarves with my initials on them",
+        "Loved the scarf this season- great design- keep going deep into Siren motif",
+        "maybe, a patch with one of the tifos",
+        "More bubbles, sparkly bubbles",
+        "More vibrant colors.  Love the idea of putting TIFO designs on shirts.  Pre-order options so that the Sirens only need to fill the orders so that merch all becomes limited edition and so the Sirens do not end up wasting money on inventory.",
+        "More Wave colors, not just Sirens colors",
+        "More wavish colors (splashes of pink?)",
+        "Pinstripes & trucker caps",
+        "Social justice driven designs.",
+        "Some minimalistic designs, like Sirens “S” on a hat",
+        "The art of the elsirens are still here tifo",
+        "The shirt design was nice! Maybe that in a hat!",
+        "Tifo design shirts/hoodies",
+        "Unihippo? Hippocorn? Unisiren/narwhal? [Someone] says puppies in mermaid costumes.",
+        "Bubbles",
+        "Idk",
+        "Like the sea serpent",
+        "Local artists work",
+        "Love San diego themes",
+        "Rainbows and waves",
+        "Simple designs.",
+        "Siren",
+        "Sirens Tifos.",
+        "sunsets",
+        "The Tifo artwork"
+       ]
+      }
+     ]
+    }
+   ],
+   "takeaways": [
+    "89 of 97 people feel safe at home games.",
+    "Season ticket holders were mostly happy with prices (70 of 80) and their reps (58 of 80), but less sure about benefits: 45 said yes and 27 said no.",
+    "52 of 97 said stadium food and drink aren't affordable.",
+    "Most people couldn't rate security (71 of 97 weren't sure or wrote something else) or dietary options (60 of 97).",
+    "The newsletter was the best-liked Sirens activity: 86 of the 96 people it applies to were satisfied. Discounts drew the most shrugs, with 41 of 83 neutral.",
+    "Volunteer events (46), social events (44) and social justice and activism (43) topped the list of events people want more of."
+   ]
+  },
+  {
+   "year": "2025",
+   "title": "2025 Sirens survey",
+   "responses": 65,
+   "platform": "Airtable form",
+   "when": "November 5 – December 8, 2025",
+   "who": "2025 Sirens members",
+   "stats": [
+    {
+     "label": "Responses",
+     "value": "65",
+     "detail": "Everyone who submitted the form"
+    },
+    {
+     "label": "Season ticket holders",
+     "value": "78%",
+     "detail": "51 of 65"
+    },
+    {
+     "label": "Very likely to renew",
+     "value": "92%",
+     "detail": "58 of 63 who answered"
+    },
+    {
+     "label": "At more than 10 home games",
+     "value": "71%",
+     "detail": "46 of 65"
+    }
+   ],
+   "sections": [
+    {
+     "title": "Stadium experience",
+     "blocks": [
+      {
+       "type": "bars",
+       "title": "Home games attended in 2025",
+       "subtitle": "Share of 65 respondents.",
+       "items": [
+        {
+         "label": "1 - 5",
+         "count": 10
+        },
+        {
+         "label": "6 - 10",
+         "count": 9
+        },
+        {
+         "label": "More than 10",
+         "count": 46
+        }
+       ],
+       "denominator": 65,
+       "note": "Nobody picked \"None\" or \"Other / Not sure\".",
+       "writeIns": []
+      },
+      {
+       "type": "bars",
+       "title": "Where people usually sit",
+       "subtitle": "Share of 64 people who answered, grouped by section.",
+       "items": [
+        {
+         "label": "100 level",
+         "count": 29
+        },
+        {
+         "label": "The Cove (section 138)",
+         "count": 25
+        },
+        {
+         "label": "200 level",
+         "count": 6
+        },
+        {
+         "label": "Varies or doesn't sit",
+         "count": 2
+        },
+        {
+         "label": "General admission",
+         "count": 2
+        }
+       ],
+       "denominator": 64,
+       "note": "Answers were typed in, so they're grouped here. Club sections (C107, C229 and so on) are counted by level.",
+       "writeIns": []
+      },
+      {
+       "type": "bars",
+       "title": "Accessibility features used",
+       "subtitle": "Share of 37 people who answered. People could pick more than one.",
+       "items": [
+        {
+         "label": "None",
+         "count": 24
+        },
+        {
+         "label": "Accessible/ADA seating",
+         "count": 9
+        },
+        {
+         "label": "Accessible/ADA parking",
+         "count": 3
+        },
+        {
+         "label": "Shuttle service",
+         "count": 2
+        },
+        {
+         "label": "Quiet room",
+         "count": 1
+        },
+        {
+         "label": "Closed captioning",
+         "count": 1
+        },
+        {
+         "label": "Other",
+         "count": 1
+        }
+       ],
+       "denominator": 37,
+       "note": null,
+       "writeIns": []
+      },
+      {
+       "type": "comments",
+       "title": "Comments on the stadium",
+       "question": "What else would you like to share about your experience in the stadium this year?",
+       "items": [
+        "Always love seeing the Sirens out in the fan section. As someone from Orange County, it makes Snapdragon feel like home.",
+        "Always needs more vegan friendly concession options.",
+        "Games are so much fun, and the vibe is family and BIPOC/LGBTQ+ friendly which is so great to see!",
+        "Getting Giveaway items was a rough processes. I’ve mentioned this to [staff member] a few times.",
+        "Great experience - but too hot during afternoon games",
+        "I was pretty bummed at the start of the season when Snapdragon changed their policies and won't allow noisemakers into the Cove/Supporters Section. Still had a great year with the Sirens in the Cove, but what will Snapdragon stop having coming in next season, flags, bubbles, etc?",
+        "It was annoying they would sell the 300's for several games, and then move those down to other sections when there wasn't enough ticket sales",
+        "It was easier in general to get around and get food this year than in past years",
+        "It’s an incredible atmosphere, rooting for our home team with the supporters. It feels safe, welcoming and loving to all who come to cheer on Wave. It’s incredibly family friendly, which makes it easy for me to bring [several young people]",
+        "Love to see more vegetarian options",
+        "really would have liked them to get back to us sooner [about bringing brass instruments]",
+        "Seemed understaffed at some games",
+        "Sirens always bring it however we need to work on a better way to start the game.  Othe teams have gongs, Gotham has a torch something that represents San Diego",
+        "The upper sections needs to be open. They just give you a better overall view of the pitch.",
+        "They need to invest in shade options for hot days. It really is unbearable. Or no day games. Like ever.",
+        "This season was incredible and all in stadium activities were very well planned.",
+        "Unfortunate to see so many food vendors closed during Friday night games",
+        "We enjoyed our time. no recommended changes.",
+        "Wish we could get more local beer selections, too few and too blah",
+        "Would love a better opening routine- the crowd wave was good! Siren bad- wave drum meh",
+        "Would love healthier food options like salads and deli sandwiches",
+        "Fun and nice give aways",
+        "Great experience",
+        "Horns please!",
+        "I liked the give aways.",
+        "Let's do it again",
+        "N/a",
+        "NA"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Wave front office",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "Ticket rep service",
+       "subtitle": "Share of 53 people who rated their rep.",
+       "categories": [
+        {
+         "key": "Very unsatisfied",
+         "label": "Very unsatisfied",
+         "role": "neg2"
+        },
+        {
+         "key": "Somewhat satisfied",
+         "label": "Somewhat satisfied",
+         "role": "pos1"
+        },
+        {
+         "key": "Very satisfied",
+         "label": "Very satisfied",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Ticket rep service",
+         "question": "Did your ticket rep(s) provide good service in 2025?",
+         "counts": {
+          "Somewhat satisfied": 15,
+          "Very satisfied": 37,
+          "Very unsatisfied": 1
+         },
+         "n": 53,
+         "writeIns": [],
+         "excluded": {
+          "label": "Other / Not sure",
+          "count": 7
+         }
+        }
+       ],
+       "note": "The form had no \"Somewhat unsatisfied\" option. People who picked \"Other / Not sure\" are left out; the count is in the table."
+      },
+      {
+       "type": "comments",
+       "title": "Comments on the front office",
+       "question": "What else would you like to share about your experience with the Wave Front Office this year?",
+       "items": [
+        "[Redacted: names staff and identifies the respondent.]",
+        "[ticket rep] saved the hockey tshirts for us even though we did not get to the game (only one we missed we were out of the country)",
+        "All fan give always frequently ran out",
+        "firing [ticket rep] was a mistake and a bit of a joke",
+        "Got upgraded to a field seat and it was amazing!",
+        "I appreciate the volunteer opportunity announcements. Most are during the week and standard working hours and that’s tough so if there were more weekend options that might be nice. But really all comms and outreach is good. Would be great to hear a little more of where the team is heading and maybe getting a little more consistent on sharing the pre and post match interviews.",
+        "I chatted with my rep about how I was unable to go to a lot of home games this so I would give/sell my tickets to fellow sirens, but I learned that season ticket holders can also donate their tickets to the wave and they in turn give the tickets away to community groups",
+        "I don’t know what happened with [ticket rep], but he was a great ticket rep from my end. But thanks for making the transition to working with [ticket rep] seamless.",
+        "I thank both [ticket rep] and later [ticket rep] for both being amazing reps! They provided us some exclusive STM opportunities that we were so grateful for, especially my daughter who plays soccer.",
+        "I wish I was included in the bonus game at USD. They cut me out because I bought my season ticket too late, but there was plenty of space at the game.",
+        "It took many conversations and multiple games to figure out where and when to get the season ticket holder gifts. It would be helpful if there was a streamlined process for this and an announcement about pickup location",
+        "Love the giveaways but please list them before the season starts so we can better plan which ones we for sure want to attend.",
+        "Make sure STH get giveaways! Have a special place or something.",
+        "No automatic renewal of season passes. you must ask us to renew. not automatic.",
+        "Once [ticket rep] joined the team as my new season ticket rep, the uptick in communication with me rose significantly! It was clear that he wanted to hear what I had to say and make my season ticket member experience better.",
+        "Only to respond to emails",
+        "Partner handled the interactions.",
+        "They ignored our requests to add horns to the supporters chants!",
+        "Transparency is best, when allowed.",
+        "[ticket rep] is great",
+        "NA"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Watch parties",
+     "blocks": [
+      {
+       "type": "bars",
+       "title": "Where people watched away games",
+       "subtitle": "Share of 51 people who answered. People could pick more than one.",
+       "items": [
+        {
+         "label": "FairPlay (North Park)",
+         "count": 24
+        },
+        {
+         "label": "Novo Brewing (Mission Valley)",
+         "count": 21
+        },
+        {
+         "label": "San Diego Brewing Company (Mission Valley)",
+         "count": 14
+        },
+        {
+         "label": "619 Spirits (North Park)",
+         "count": 13
+        },
+        {
+         "label": "Kairoa (University Heights)",
+         "count": 13
+        },
+        {
+         "label": "Viewpoint Brewing Company (Del Mar)",
+         "count": 13
+        },
+        {
+         "label": "None of the above",
+         "count": 11
+        },
+        {
+         "label": "Little Bird Brewing (North Park)",
+         "count": 11
+        },
+        {
+         "label": "Brewjeria (Chula Vista)",
+         "count": 8
+        },
+        {
+         "label": "Corner Drafthouse (Balboa Park)",
+         "count": 6
+        },
+        {
+         "label": "Culture Brewing (Solana Beach)",
+         "count": 5
+        },
+        {
+         "label": "Chicago Bros Pizzeria (Mission Valley)",
+         "count": 4
+        }
+       ],
+       "denominator": 51,
+       "note": null,
+       "writeIns": []
+      },
+      {
+       "type": "comments",
+       "title": "How people choose a watch party",
+       "question": "When there are multiple watch parties at the same time, how do you decide which to attend?",
+       "items": [
+        "Closeness/ease of parking",
+        "I go to the one the Sirens are hosting.",
+        "I only went to Shakespeare Pub for the Non-Wave watch party at the end of the season, as well as going to Untamed Spirits Women's Sports Bar in Los Angeles & Watch Me Women's sports bar in Long Beach to watch a few Wave matches since I live in LA.",
+        "I went to a watch party at a friend's house :)",
+        "just right timing for my crazy family",
+        "location near me, has parking and plenty of seating.",
+        "Location. Something in the middle of the county between the 94 and the 52, preferably Mission Valley-esque.",
+        "Most convenient location (distance from home and ease of parking)",
+        "Parking availability and food options.\n\nThis is why I chose to go to FairPlay in North Park as opposed to Princess Pub in Little Italy for the NWSL Championship Game",
+        "The one that is closest to where I live ( North County)",
+        "Using this space for feedback: Never again at Viewpoint Brewing please! Not nearly enough TVs!",
+        "Usually attend sirens watch parties to be with people I know. Could vary if distance from home is vastly different between multiple watch parties.",
+        "Usually chose closest to me or where other Sirens were going to",
+        "Which is closest to my house",
+        "Which location is closest to my area",
+        "Whichever is closer to my house and/or is more transit-accessible and/or has sufficient parking and/or has more of my friends or chance for my friends to attend.",
+        "Whichever is closest to me in North Park",
+        "whichever one my friends are going to/whichever is closest to home",
+        "Central Location",
+        "Closer to home",
+        "Closest to home",
+        "Closest to home",
+        "Closest to home/friends",
+        "Closest to me",
+        "Closest to where I live",
+        "Encinitas",
+        "location closest to home",
+        "NA",
+        "Parking",
+        "Proximity to my house",
+        "Proximity to my house.",
+        "Where my friends go",
+        "Where Sirens go",
+        "Whichever is closest"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Sirens",
+     "blocks": [
+      {
+       "type": "diverging",
+       "title": "Renewing for 2026",
+       "subtitle": "Share of 63 people who answered.",
+       "categories": [
+        {
+         "key": "Very unlikely",
+         "label": "Very unlikely",
+         "role": "neg2"
+        },
+        {
+         "key": "Somewhat unlikely",
+         "label": "Somewhat unlikely",
+         "role": "neg1"
+        },
+        {
+         "key": "Somewhat likely",
+         "label": "Somewhat likely",
+         "role": "pos1"
+        },
+        {
+         "key": "Very likely",
+         "label": "Very likely",
+         "role": "pos2"
+        }
+       ],
+       "rows": [
+        {
+         "label": "Renewing for 2026",
+         "question": "How likely are you to renew your Sirens membership for 2026?",
+         "counts": {
+          "Very likely": 58,
+          "Somewhat likely": 4,
+          "Very unlikely": 1
+         },
+         "n": 63,
+         "writeIns": []
+        }
+       ],
+       "note": "The form offered Very likely, Somewhat likely and Very unlikely."
+      },
+      {
+       "type": "comments",
+       "title": "What goes into renewing",
+       "question": "What factors go into your decision whether to renew?",
+       "items": [
+        "As long as I live in San Diego, I will plan to continue my membership with the Sirens.",
+        "Automatic renewal forever",
+        "But we're not doing 3 this time. We're doing 1.  Automatic renew stained my desire to go to 4 like planned.",
+        "Continued kindness and inclusivity of the Discord site, as I’m never able to attend watch parties and tailgates",
+        "Cool scarf + useful discord!",
+        "Having the Sirens cheering is super important to the home game atmosphere. I'm not sitting in the supporters section but I'm very happy to pay the small fee to support all the Sirens who are there cheering, playing drums, making banners etc. I also really like the watch parties. I get nervous on away game day and am so happy to be with fellow fans!",
+        "How incredibly family friendly and welcoming of all!! Love the ambiance created and the love felt throughout the stands ❤️",
+        "I do not often participate in the Sirens events due to my schedule, but I really love the newsletters. They keep me informed and it's the best place to get the highlights of what is going on with the Wave. Keep it up.",
+        "I love San Diego sports. I’m very excited to have another professional sports team in our city, and I can see how much having a professional women’s team in our city matters to my partner (she’s female and I’m male, if it matters). I lost the Chargers but gained the Wave.",
+        "I never felt connected to people in the group for the events that I attended, which, admittedly was VERY few (maybe 3).",
+        "I really love access to the Discord.",
+        "I try to help anyway I can so doing a membership is one the way I can",
+        "I want continue building up our culture and make our fan base one of the best in the league!",
+        "I want to continue to be a part of the community & show love and support to the team",
+        "If [Sirens officer] is there. ;)",
+        "If there is something \"free\" again I will renew it. The scarf is what got me to get the membership lol",
+        "It’s a no brainer. Sirens are a great supporter group and a wonderful group of people to watch games with! The price is totally reasonable and accessible for all fans!",
+        "The amount of Sirens events/activities I attended.",
+        "The people in the supporters group and the leadership of it.",
+        "Very few cause I love this Supporters Group and team so I'm in, and love the Discord & that yearly amazing scarf!",
+        "What better way to support our local NWSL team than joining one of the best supporter groups in the league. Not only will you join the best support group but you will make lots of friends!",
+        "Would like to keep supporting your community building and tifos",
+        "You all do good stuff and I appreciate you!",
+        "Affordable and fun!",
+        "Community.",
+        "cost",
+        "Friends",
+        "I like to bang on drum",
+        "Like to support",
+        "Sorta have to"
+       ]
+      },
+      {
+       "type": "bars",
+       "title": "How people hear about Sirens news",
+       "subtitle": "Share of 63 people who answered. People could pick more than one.",
+       "items": [
+        {
+         "label": "Sirens newsletter",
+         "count": 42
+        },
+        {
+         "label": "Discord",
+         "count": 41
+        },
+        {
+         "label": "Social media",
+         "count": 24
+        },
+        {
+         "label": "Word of mouth",
+         "count": 13
+        },
+        {
+         "label": "Other",
+         "count": 2
+        },
+        {
+         "label": "Unsure",
+         "count": 1
+        }
+       ],
+       "denominator": 63,
+       "note": null,
+       "writeIns": []
+      },
+      {
+       "type": "bars",
+       "title": "Organizations to keep supporting",
+       "subtitle": "Share of 57 people who answered. People could pick more than one.",
+       "items": [
+        {
+         "label": "NWSL Players Association",
+         "count": 49
+        },
+        {
+         "label": "The San Diego LGBT Center",
+         "count": 43
+        },
+        {
+         "label": "Trans Family Support Services (TFSS)",
+         "count": 38
+        },
+        {
+         "label": "The Black Women's Player Collective",
+         "count": 37
+        },
+        {
+         "label": "Al Otro Lado",
+         "count": 29
+        },
+        {
+         "label": "Lambda Rising Soccer",
+         "count": 28
+        },
+        {
+         "label": "YMCA",
+         "count": 23
+        },
+        {
+         "label": "Independent Supporter Council (ISC)",
+         "count": 20
+        }
+       ],
+       "denominator": 57,
+       "note": null,
+       "writeIns": []
+      },
+      {
+       "type": "comments",
+       "title": "Other organizations suggested",
+       "question": "Please list any other organizations you feel like the Sirens should support.",
+       "items": [
+        "None that i cannot think of.",
+        "Something that support young girls in sports",
+        "There was an organization at the championship game in San Jose that supports players financially if they have their car breakdown or have an uncovered injury, etc. I don’t remember the name of it but it was a booth that had signed team jerseys. Maybe there is a way to get a SD chapter?",
+        "Chicano Federation",
+        "Homeless/foster youth ;)"
+       ]
+      }
+     ]
+    },
+    {
+     "title": "Final thoughts",
+     "blocks": [
+      {
+       "type": "comments",
+       "title": "Anything else",
+       "question": "What else would you like to share about your experience with the Sirens or the Wave this year?",
+       "items": [
+        "A continued joy. I’m hopeful next year I’ll be able to attend some meet ups, but my physical absence has never made me feel less than and I appreciate the leadership team for setting that tone. Love being a Siren and sharing our positivity with other fans in our section/the world.",
+        "I enjoy the positive spin even if the team doesn't win the game. And all the pictures in the newsletters.",
+        "It was my first year as a Siren even though I’ve been a season ticket holder since the beginning. I like that I can join the fun for some things and chill in my section with the people I’ve watched games with for years for others. Also the Tifos were fire!",
+        "It's been absolutely great being a Siren and meeting fellow Sirens and new fans, helping set up the cove as well as the tailgate. Also the away match travel have been a total blast with other Sirens in the mix. Another great thing with being a Siren is how to root for our team and other teams positively and not include as much negativity while support this great team.",
+        "I’m excited for next year! We’ll be season ticket members for the first time! I also want to be more involved next season :) thanks for all you guys do to support the club and creating an awesome supporters club! Go Wave!",
+        "Loved getting to know everyone and the wonderful community that is the Sirens! Looking forward to next season!",
+        "Loved the Sirens zoom call with Jonas. That was a really awesome special access feature!",
+        "Thanks for all the work you did this year! It's always nice to know that if I need something, Sirens have the hookup",
+        "Thanks for working so hard behind the scenes for us supporters. I’m incredibly grateful to all of you for the time and energy dedicated to creating an enjoyable and supportive environment to our incredible hometown team!!",
+        "The chants need work. Just constructive feedback. I can tell they have been put together thoughtfully and well but still they need to be more interactive. People want to participate, make the entry level very low. Also be interactive with what is going on in the game currently being played while the head song peeps backs are turned. And be very simple so everyone can join in. Some work (oh when the saints one, Olé, Olé, Olé, Jolene with Delphine is great) and some don't work currently. Think of adding or conforming chants that are already popular, Sweet Caroline, Olé, Olé, Olé (great we use that), You'll Never Walk Alone, I'm Forever Blowing Bubbles, Don't Take Me Home, Blue Moon, Que Sera, Sera, The Lion Sleeps Tonight (Dudinha, Dudinha, Dudinha, Dudinha, In the jungle, the mighty jungle, [Angle City] sleeps tonight...) Surfing USA, A heavy drum version of Wipeout ... no lyrics to that so maybe a stretch. Love your work keep evolving!",
+        "This year with the Sirens reminded me how powerful community can be; the friendships, the energy, and the joy we created together will last for seasons to come.",
+        "Would love it if Sirens members were guaranteed the giveaways. Always a balance of wanting to hang out at tailgate but not miss out on giveaway.",
+        "Would love to know there are vegan options at the Tailgates.",
+        "Excelsior!",
+        "Fun group of people",
+        "Horns please!",
+        "Nope thanks",
+        "THANKS ALL!",
+        "Thanks for all the fun!",
+        "We rock. Good for us.",
+        "You guys do a great job."
+       ]
+      }
+     ]
+    }
+   ],
+   "takeaways": [
+    "58 of 63 people are very likely to renew their Sirens membership.",
+    "52 of the 53 people who rated their ticket rep were satisfied, 37 of them very satisfied.",
+    "The newsletter (42 of 63) and Discord (41) are how most people hear Sirens news.",
+    "FairPlay in North Park (24 of 51) and Novo Brewing in Mission Valley (21) drew the most people to away-game watch parties.",
+    "The NWSL Players Association was the most-chosen organization to keep supporting, picked by 49 of 57.",
+    "25 of 64 people sit in the Cove (section 138); the rest are spread across the stadium."
+   ]
+  }
+ ],
+ "across": {
+  "rep": {
+   "title": "Ticket rep service, all three years",
+   "subtitle": "Share of people who rated their rep positively, leaving out \"not sure\" answers. 2023 and 2024 asked yes or no; 2025 used a satisfaction scale, so \"very\" and \"somewhat satisfied\" both count here.",
+   "items": [
+    {
+     "label": "2023",
+     "value": 85,
+     "detail": "11 of 13"
+    },
+    {
+     "label": "2024",
+     "value": 85,
+     "detail": "58 of 68"
+    },
+    {
+     "label": "2025",
+     "value": 98,
+     "detail": "52 of 53"
+    }
+   ]
+  },
+  "table": {
+   "title": "Measures asked in more than one year",
+   "columns": [
+    "2023",
+    "2024",
+    "2025"
+   ],
+   "rows": [
+    {
+     "label": "Responses",
+     "cells": [
+      {
+       "value": "15",
+       "detail": ""
+      },
+      {
+       "value": "97",
+       "detail": ""
+      },
+      {
+       "value": "65",
+       "detail": ""
+      }
+     ]
+    },
+    {
+     "label": "Season ticket holders",
+     "cells": [
+      {
+       "value": "",
+       "detail": "Not asked"
+      },
+      {
+       "value": "82%",
+       "detail": "80 of 97"
+      },
+      {
+       "value": "78%",
+       "detail": "51 of 65"
+      }
+     ]
+    },
+    {
+     "label": "At more than 10 home games",
+     "cells": [
+      {
+       "value": "",
+       "detail": "Not asked"
+      },
+      {
+       "value": "76%",
+       "detail": "74 of 97"
+      },
+      {
+       "value": "71%",
+       "detail": "46 of 65"
+      }
+     ]
+    },
+    {
+     "label": "Rated their ticket rep positively",
+     "cells": [
+      {
+       "value": "85%",
+       "detail": "11 of 13"
+      },
+      {
+       "value": "85%",
+       "detail": "58 of 68"
+      },
+      {
+       "value": "98%",
+       "detail": "52 of 53"
+      }
+     ]
+    },
+    {
+     "label": "Used no stadium accessibility features",
+     "cells": [
+      {
+       "value": "",
+       "detail": "Not asked"
+      },
+      {
+       "value": "74%",
+       "detail": "72 of 97"
+      },
+      {
+       "value": "65%",
+       "detail": "24 of 37"
+      }
+     ]
+    }
+   ],
+   "note": "2023 asked about accessibility as a yes-or-no rating, so it isn't comparable. 2025 didn't ask the ticketing, safety, food or security questions."
+  }
+ }
+}
