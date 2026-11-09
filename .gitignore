@@ -9,3 +9,6 @@ data/raw/
 
 __pycache__/
 .venv/
+
+# Local Claude Code settings
+.claude/
